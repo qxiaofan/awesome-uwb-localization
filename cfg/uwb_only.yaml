@@ -1,0 +1,27 @@
+# parameters for robots
+robot:
+  trajectory_length: 10
+  maximum_velocity: 5.0
+  distance_outlier: 1
+
+# parameters for g2o optimizer
+optimizer:
+  maximum_iteration: 10
+  minimum_optimize_error: 2000
+  # if the optimization error is larger than this value, that estimation will be skipped
+  verbose: false
+
+# parameters for topic subscription
+topic:
+  range: /lpsrange
+
+publish_flag:
+  tf: true
+  # publish estimation when the following topics are received.
+  # topics available in {range, pose, twist, imu}. false in default
+  range: true
+
+# fused pose topic frame
+frame:
+  target: /uwb_localization
+  source: /world
