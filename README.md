@@ -1,5 +1,29 @@
 This is modified from [localization](https://github.com/wang-chen/localization) . Thanks for his work for uwb localizaiton. 
 
+1、ubuntu18.04下ros安装：https://blog.csdn.net/qq_41450811/article/details/99079041
+2、创建ros工作空间，方法可参考：https://blog.csdn.net/wwwlyj123321/article/details/83147242
+
+代码：
+1）https://github.com/qxiaofan/awesome-uwb-localization
+2）https://github.com/qxiaofan/awesome-uwb-driver
+
+接下来简单介绍下上述程序如何运行？前提是参考下文，安装好相关依赖包。
+
+mkdir catkin_ws1 #在某个目录下新建一个文件夹，当然名称可以自拟
+
+cd catkin_ws1
+
+mkdir src 
+
+之后，将上述的awesome-uwb-localization和awesome-uwb-driver工程下载到src目录下
+
+之后在文件夹catkin_ws1下打开终端，输入：
+
+catkin_make
+
+编译成功后，通过命令：roslaunch localization_bag_play.launch 即可运行demo
+
+
 # localization
 
 Localization ROS package for range sensors, i.e. ultra wide-band (UWB).
