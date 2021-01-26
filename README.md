@@ -1,11 +1,8 @@
 This is modified from [localization](https://github.com/wang-chen/localization) . Thanks for his work for uwb localizaiton. 
 
-1、ubuntu18.04下ros安装：https://blog.csdn.net/qq_41450811/article/details/99079041
-2、创建ros工作空间，方法可参考：https://blog.csdn.net/wwwlyj123321/article/details/83147242
+代码1：https://github.com/qxiaofan/awesome-uwb-localization
 
-代码：
-1）https://github.com/qxiaofan/awesome-uwb-localization
-2）https://github.com/qxiaofan/awesome-uwb-driver
+代码2：https://github.com/qxiaofan/awesome-uwb-driver
 
 接下来简单介绍下上述程序如何运行？前提是参考下文，安装好相关依赖包。
 
